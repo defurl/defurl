@@ -2,18 +2,21 @@
 
 > _🚀 Building the future with AI & Code_
 
-**Final-year Computer Science student** specializing in **Software Development** and I like building innovative solutions using **AI**, **Web Development**. Im learning more advanced AI technologies like **RAG** and **LLMs**, as well as learning **DevOps**.
-
----
-
----
-
-## 📊 My GitHub Stats
+**Final-year Computer Science student** specializing in **Software Development**. I love building innovative solutions using **AI**, **Web Development**, and exploring advanced technologies like **RAG**, **LLMs**, and **DevOps**.
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=defurl&show_icons=true&theme=tokyonight&hide_border=true" alt="defurl GitHub Stats" />
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Caveat&weight=600&size=60&duration=3500&pause=1200&center=true&vCenter=true&width=1080&height=100&color=7AA2F7&lines=Hi!%2C+I'm+Minh-Hieu+Tran;Computer+Science+Student;Full-stack+Web+%26+Mobile+Developer;AI+%26+Deep+Learning+Enthusiast" alt="Typing SVG" />
+  </a>
+</div>
+
+---
+
+<p align="center"><h1><strong>📊 G I T H U B &nbsp; S T A T S</strong></h1></p>
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=defurl&theme=tokyonight" alt="Profile Summary" />
   <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=defurl&layout=compact&theme=tokyonight&hide_border=true" alt="Top Langs" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=defurl&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </div>
 
 ---
