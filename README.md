@@ -5,18 +5,18 @@
 **Final-year Computer Science student** specializing in **Software Development** and I like building innovative solutions using **AI**, **Web Development**. Im learning more advanced AI technologies like **RAG** and **LLMs**, as well as learning **DevOps**.
 
 ---
-## 📊 Project Stats
-
-![Commits](https://img.shields.io/badge/Commits-2-blue?style=flat-square&logo=git&logoColor=white&labelColor=2D2D2D)
-![Hours](https://img.shields.io/badge/Hours-16-orange?style=flat-square&logo=clock&logoColor=white&labelColor=2D2D2D)
-![Lines of Code](https://img.shields.io/badge/LOC-132-brightgreen?style=flat-square&logo=code&logoColor=white&labelColor=2D2D2D)
-![Files](https://img.shields.io/badge/Files-3-yellow?style=flat-square&logo=file&logoColor=white&labelColor=2D2D2D)
-![Languages](https://img.shields.io/badge/Languages-N%2FA-red?style=flat-square&logo=language&logoColor=white&labelColor=2D2D2D)
-![Last Commit](https://img.shields.io/badge/Last%20Commit-2026-01-03-lightgrey?style=flat-square&logo=git&logoColor=white&labelColor=2D2D2D)
-![Size](https://img.shields.io/badge/Size-101K-purple?style=flat-square&logo=folder&logoColor=white&labelColor=2D2D2D)
 
 ---
 
+## 📊 My GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=defurl&show_icons=true&theme=tokyonight&hide_border=true" alt="defurl GitHub Stats" />
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=defurl&layout=compact&theme=tokyonight&hide_border=true" alt="Top Langs" />
+</div>
+
+---
 
 I am actively seeking challenging **remote roles** where I can apply my skills, with a focus on future work in the field of **Software Development** and **Artificial Intelligence**. I am open to collaborations!
 
