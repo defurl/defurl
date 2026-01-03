@@ -21,6 +21,14 @@
         <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=defurl&theme=tokyonight" width="400" alt="GitHub Stats" />
       </td>
       <td width="50%" align="right">
+        <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=defurl&theme=tokyonight&utcOffset=8" width="400" alt="Productive Time" />
+      </td>
+    </tr>
+    <tr>
+      <td width="50%" align="left">
+        <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=defurl&theme=tokyonight" alt="Repo Languages" />
+      </td>
+      <td width="50%" align="right">
         <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=defurl&theme=tokyonight" width="400" alt="Top Languages" />
       </td>
     </tr>
