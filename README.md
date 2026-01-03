@@ -16,7 +16,7 @@
 <div align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=defurl&theme=tokyonight" alt="Profile Summary" />
   <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=defurl&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=defurl&theme=tokyonight&hide_border=true" alt="GitHub Activity Graph" />
 </div>
 
 ---
