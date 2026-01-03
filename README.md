@@ -14,20 +14,26 @@
 
 <p align="center"><h1><strong>📊 G I T H U B &nbsp; S T A T S</strong></h1></p>
 
-<table border="0" align="center">
-  <tr>
-    <td align="center" width="50%">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=defurl&theme=tokyonight" width="100%" alt="GitHub Stats" />
-    </td>
-    <td align="center" width="50%">
-      <img src="https://github-profile-trophy.vercel.app/?username=defurl&theme=tokyonight&no-bg=true&margin-w=15" width="100%" alt="Trophies" />
-    </td>
-  </tr>
-</table>
-
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=defurl&theme=tokyonight" width="100%" alt="Profile Summary" />
+  <table border="0">
+    <tr>
+      <td width="50%" align="left">
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=defurl&theme=tokyonight" width="400" />
+      </td>
+      <td width="50%" align="right">
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=defurl&theme=tokyonight" width="400" />
+      </td>
+    </tr>
+  </table>
 </div>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=defurl&theme=tokyonight&cache_buster=1" width="850" alt="Profile Details" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=defurl&theme=tokyonight&no-bg=true&column=7" alt="Trophies" />
+</p>
 
 ---
 
