@@ -13,19 +13,25 @@
 ---
 
 <p align="center"><h1><strong>📊 G I T H U B &nbsp; S T A T S</strong></h1></p>
+
+<table border="0" align="center">
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=defurl&theme=tokyonight" width="100%" alt="GitHub Stats" />
+    </td>
+    <td align="center" width="50%">
+      <img src="https://github-profile-trophy.vercel.app/?username=defurl&theme=tokyonight&no-bg=true&margin-w=15" width="100%" alt="Trophies" />
+    </td>
+  </tr>
+</table>
+
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=defurl&theme=tokyonight" alt="Profile Summary" />
-  <br/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=defurl&theme=tokyonight" alt="GitHub Stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=defurl&theme=tokyonight" width="100%" alt="Profile Summary" />
 </div>
 
 ---
 
-I am actively seeking challenging **remote roles** where I can apply my skills, with a focus on future work in the field of **Software Development** and **Artificial Intelligence**. I am open to collaborations!
-
----
-
-## 🚀 Quick Overview
+### 🚀 Quick Overview
 
 - **Focus:** AI/ML, Full-Stack Web Development, and DevOps.
 - **Education:** BS in Computer Science (CPA: 3.6/4.0, GPA 2025: 4.0/4.0).
@@ -34,7 +40,7 @@ I am actively seeking challenging **remote roles** where I can apply my skills, 
 
 ---
 
-## 💻 Tech Highlights
+### 💻 Tech Highlights
 
 | Frameworks                | Languages                                   | Tools                 |
 | :------------------------ | :------------------------------------------ | :-------------------- |
@@ -42,6 +48,6 @@ I am actively seeking challenging **remote roles** where I can apply my skills, 
 
 ---
 
-## 🤝 Let's Connect!
+### 🤝 Let's Connect!
 
 I am focused on applying my skills in **AI** and scalable software development to challenging remote projects. Feel free to connect for opportunities or to discuss technology!
