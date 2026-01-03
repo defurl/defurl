@@ -21,7 +21,7 @@
         <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=defurl&theme=tokyonight" width="400" alt="GitHub Stats" />
       </td>
       <td width="50%" align="right">
-        <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=defurl&theme=tokyonight&utcOffset=8" width="400" alt="Productive Time" />
+        <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=defurl&theme=tokyonight&utcOffset=7" width="400" alt="Productive Time" />
       </td>
     </tr>
     <tr>
