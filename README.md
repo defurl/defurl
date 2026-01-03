@@ -27,13 +27,13 @@
   </table>
 </div>
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=defurl&theme=tokyonight&cache_buster=1" width="850" alt="Profile Details" />
-</p>
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=defurl&theme=tokyonight&cache_buster=2" width="100%" alt="Profile Details" />
+</div>
 
-<p align="center">
+<div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=defurl&theme=tokyonight&no-bg=true&column=7" alt="Trophies" />
-</p>
+</div>
 
 ---
 
