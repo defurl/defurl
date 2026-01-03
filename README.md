@@ -18,21 +18,21 @@
   <table border="0">
     <tr>
       <td width="50%" align="left">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=defurl&theme=tokyonight" width="400" />
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=defurl&theme=tokyonight" width="400" alt="GitHub Stats" />
       </td>
       <td width="50%" align="right">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=defurl&theme=tokyonight" width="400" />
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=defurl&theme=tokyonight" width="400" alt="Top Languages" />
       </td>
     </tr>
   </table>
 </div>
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=defurl&theme=tokyonight&cache_buster=2" width="100%" alt="Profile Details" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=defurl&theme=tokyonight&cache_buster=fresh" width="100%" alt="Yearly Activity" />
 </div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=defurl&theme=tokyonight&no-bg=true&column=7" alt="Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=defurl&theme=tokyonight&no-bg=true&column=7&margin-w=15" alt="Trophies" />
 </div>
 
 ---
