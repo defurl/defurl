@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
-# generate_stats.sh – creates a stats markdown fragment and injects it into myREADME.md
+# generate_stats.sh – creates a stats markdown fragment and injects it into README.md
 # Requirements: git, cloc (optional), du, wc, sed
 
 # Helper to URL‑encode a string (for badge URLs)
 urlencode() {
   local LANG=C i c e=""
   for ((i=0;i<${#1};i++)); do
-    c=${1:$i:1}
+    c=${1:i:1}
     case "$c" in
       [a-zA-Z0-9.~_-]) e+="$c" ;;
       *) e+="%$(printf "%02X" "'${c}")" ;;
@@ -16,8 +16,8 @@ urlencode() {
 }
 
 # Compute metrics
-COMMITS=$(git rev-list --count HEAD)
-LAST_COMMIT=$(git log -1 --format=%cd --date=short)
+COMMITS=$(git rev-list --count HEAD 2>/dev/null || echo 0)
+LAST_COMMIT=$(git log -1 --format=%cd --date=short 2>/dev/null || echo "N/A")
 # Approximate total coding hours – assume 8 h per commit (simple heuristic)
 HOURS=$((COMMITS * 8))
 
@@ -25,18 +25,20 @@ HOURS=$((COMMITS * 8))
 if command -v cloc >/dev/null 2>&1; then
   CLOCDATA=$(cloc --json .)
   LOC=$(echo "$CLOCDATA" | python - <<'PY'
-import sys, json, math
-j=json.load(sys.stdin)
-print(j.get('SUM',{}).get('code',0))
+import sys, json
+j = json.load(sys.stdin)
+print(j.get('SUM', {}).get('code', 0))
 PY
+  )
   LANGS=$(echo "$CLOCDATA" | python - <<'PY'
 import sys, json
-j=json.load(sys.stdin)
-langs=j.get('languages',{})
+j = json.load(sys.stdin)
+langs = j.get('languages', {})
 # sort by code lines, take top 3
-sorted_lang=sorted(langs.items(), key=lambda kv: kv[1].get('code',0), reverse=True)[:3]
-print(' | '.join([k for k,_ in sorted_lang]))
+sorted_lang = sorted(langs.items(), key=lambda kv: kv[1].get('code', 0), reverse=True)[:3]
+print(' | '.join([k for k, _ in sorted_lang]))
 PY
+  )
 else
   LOC=$(git ls-files | xargs wc -l | tail -1 | awk '{print $1}')
   LANGS="N/A"
@@ -63,10 +65,10 @@ cat > stats.md <<EOF
 
 ![Commits]($badge_commits)
 ![Hours]($badge_hours)
-![Lines%20of%20Code]($badge_loc)
+![Lines of Code]($badge_loc)
 ![Files]($badge_files)
 ![Languages]($badge_langs)
-![Last%20Commit]($badge_last)
+![Last Commit]($badge_last)
 ![Size]($badge_size)
 
 ---
@@ -74,12 +76,12 @@ EOF
 
 # Insert or replace placeholder in README
 PLACEHOLDER="<!-- STATS_PLACEHOLDER -->"
-if grep -q "$PLACEHOLDER" myREADME.md; then
-  # Use sed to replace the placeholder line with the contents of stats.md
+if grep -q "$PLACEHOLDER" README.md; then
+  # Replace the placeholder line with the contents of stats.md
   sed -i "/$PLACEHOLDER/c\\
-$(sed 's/[&/]/\\&/g' stats.md)" myREADME.md
+$(sed 's/[&/]/\\&/g' stats.md)" README.md
 else
   echo "Placeholder not found – you can manually copy stats.md into your README where desired." >&2
 fi
 
-echo "Stats generated and injected into myREADME.md."
+echo "Stats generated and injected into README.md."
