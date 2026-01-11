@@ -18,29 +18,29 @@
   <table border="0">
     <tr>
       <td width="50%" align="left">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=defurl&theme=tokyonight" width="400" alt="GitHub Stats" />
+        <img src="https://github-profile-summary-cards-seven.vercel.app/api/cards/stats?username=defurl&theme=tokyonight" width="400" alt="GitHub Stats" />
       </td>
       <td width="50%" align="right">
-        <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=defurl&theme=tokyonight&utcOffset=7" width="400" alt="Productive Time" />
+        <img src="https://github-profile-summary-cards-seven.vercel.app/api/cards/productive-time?username=defurl&theme=tokyonight&utcOffset=7" width="400" alt="Productive Time" />
       </td>
     </tr>
     <tr>
       <td width="50%" align="left">
-        <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=defurl&theme=tokyonight" alt="Repo Languages" />
+        <img src="https://github-profile-summary-cards-seven.vercel.app/api/cards/repos-per-language?username=defurl&theme=tokyonight" alt="Repo Languages" />
       </td>
       <td width="50%" align="right">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=defurl&theme=tokyonight" width="400" alt="Top Languages" />
+        <img src="https://github-profile-summary-cards-seven.vercel.app/api/cards/most-commit-language?username=defurl&theme=tokyonight" width="400" alt="Top Languages" />
       </td>
     </tr>
   </table>
 </div>
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=defurl&theme=tokyonight&cache_buster=fresh" width="100%" alt="Yearly Activity" />
+  <img src="https://github-profile-summary-cards-seven.vercel.app/api/cards/profile-details?username=defurl&theme=tokyonight&cache_buster=fresh" width="100%" alt="Yearly Activity" />
 </div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=defurl&theme=tokyonight&no-bg=true&column=7&margin-w=15" alt="Trophies" />
+  <img src="https://github-profile-trophy-one.vercel.app/?username=defurl&theme=tokyonight&no-bg=true&column=7&margin-w=15" alt="Trophies" />
 </div>
 
 ---
