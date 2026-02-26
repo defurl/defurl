@@ -1,7 +1,5 @@
 # Hi, I'm Minh-Hieu Tran!
 
-> Building the future with AI & Code_
-
 **Final-year Computer Science student** specializing in **Software Development**. I love building innovative solutions using **AI**, **Web Development**, and exploring advanced technologies like **RAG**, **LLMs**, and **DevOps**.
 
 <div align="center">
